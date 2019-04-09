@@ -1,0 +1,31 @@
+<style>
+.variable{
+    color:red
+}
+.item{
+    padding-left: 20px
+}
+.brackets{
+    color:blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+</style>
+
+
+
+
+
+<div class="brackets">{</div>
+
+    <div class="item">"cpuCount": <span class="variable">"{{data['cpuCount']}}"</span>,</div>
+    <div class="item">"hostname": <span class="variable">"{{data['hostname']}}"</span>,</div>
+    <div class="item">"ip_address": <span class="variable">"{{data['ip_address']}}"</span></div>
+
+<div class="brackets">}</div>
+
+
+
+<pre>
+{{jsonData}}
+</pre>
